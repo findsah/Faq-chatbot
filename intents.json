@@ -1,0 +1,79 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "lockdown",
+     "patterns": ["What happens if there is another lockdown in future?","What if there is another lockdown?","lockdown"],
+     "responses": ["In the event of a future lockdown, we will follow guidance from the Department for Education and our local public health authorities, and keep you updated on arrangements."]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+     {"tag": "vaccine",
+     "patterns": ["Can I get vaccinated ?", "Who can get vaccinated", "Is vaccination available for everyone","vaccine","vaccination"],
+     "responses": ["anybody aged 16 or over in the UK is eligible for a free COVID-19 vaccination, regardless of their nationality or immigration status. We are strongly encouraging our students to receive their COVID-19 vaccination as soon as possible. The NHS website has more information about vaccinations for students in higher education."]
+    },
+    {"tag": "covid entry requirements",
+     "patterns": ["Are there any entry requirements related to covid?","entry requirements","entering the uk"],
+     "responses": ["You can check the requirements to enter the UK on the UK Government website"]
+    },
+    {"tag": "doctor",
+     "patterns": ["I would like to register with a doctor (GP) in the UK","register with a doctor","gp","doctor"],
+     "responses": ["For information on how to register with the National Health Service visit our International Student Advice Service pages."]
+    },
+     {"tag": "study skills",
+     "patterns": ["study skills", "service", "Is the study skills service available?"],
+     "responses": ["Yes, all our student services – including Study Skills – are available online. You can book an appointment online, and should receive a confirmation email once you've booked."]
+    },
+    {"tag": "financial support",
+     "patterns": ["financial support", "financial hardship"],
+     "responses": ["If you'd like advice and guidance on finances or financial support, our Money Advice Service can help; email the team on moneyadvice@aru.ac.uk. If you pay your tuition fees in instalments and have concerns about making payments, please email our Credit Control Team: creditcontrol@aru.ac.uk."]
+    },
+     {"tag": "iCentre",
+     "patterns": ["Is the iCentre open?", "Is there and iCentre"],
+     "responses": ["The iCentre is open on campus from 10am-1pm and 1.30pm-4pm. Social distancing measures are in place."]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+     {"tag": "accommodation",
+     "patterns": ["live", "living", "accommodation"],
+     "responses": ["If you would like to find accommodation in the private sector (not University accommodation) our Residential Service  can offer help and guidance. When you come to the UK you have to provide an address when you complete your passenger locator form. We recommend that you start looking for a accommodation as soon as you have paid your tuition fee deposit."]
+    },
+    {"tag": "brp",
+     "patterns": ["How can I get my residence permit?","How can I collect my brp?","Where can i collect my brp?"],
+     "responses": ["If you chose ARU as your ACL (Alternative Collection Point) when you apply for your visa, your BRP will be sent directly to ARU. You can collect it from us."]
+    },
+     {"tag": "safety",
+     "patterns": ["What steps will be taken to keep me safe on campus?","What is done to ensure safety on campus?"],
+     "responses": ["We encourage students and staff to continue to wear face coverings (unless exempt) and to respect personal space. We also encourage everyone to test regularly."]
+    },
+    {"tag": "bank",
+    "patterns": [ "how to open a bank account", "I want to create a bank account", "how to open a new bank account"],
+    "responses": ["After you have fully registered can you open an account, guidance will be given during orientation."]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Ismali, your bot assistant", "I'm Ismali, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Ismali.", "I'm Ismali!", "Just call me as Ismali"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    }
+]
+}
