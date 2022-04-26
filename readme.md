@@ -17,4 +17,4 @@ Once all of  the requirements are succesfully installed
    
 2. python main.py runserver
 
-3. you can use the command line interface the chatbot.
+3. you can use the command line interface to test the chatbot.
